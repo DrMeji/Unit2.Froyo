@@ -1,3 +1,7 @@
+window.onload = function() {
+    processOrder();
+};
+
 function processOrder() {
     const userInput = prompt("Enter your froyo flavors (comma-separated):");
     const flavors = userInput.split(",");
